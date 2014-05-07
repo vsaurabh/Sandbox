@@ -6,3 +6,15 @@ git add =>
 
 git status =>
 	Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing). 
+
+git log =>
+	Shows a listing of commits on a branch including the corresponding details.
+
+git show =>
+	Shows information about a git object.
+
+git pull =>
+	Fetches the files from the remote repository and merges it with your local one. This command is equal to the git fetch and the git merge sequence. Example: git pull origin
+
+git push =>
+	Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master.
