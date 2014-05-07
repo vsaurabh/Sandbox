@@ -1,13 +1,8 @@
-git clone ssh.....or http => Makes a Git repository copy from a remote source. Also adds the original location as a remote so you can fetch from it again and push to it if you have permissions.
-git diff
-git status
-git stash
-git log
-git history
-git blame
-git cherry pick
-git reset HEAD
-git push
-git pull
+git clone ssh.....or http =>
+	'' Makes a Git repository copy from a remote source. Also adds the original location as a remote source you can fetch from it again and push to it if you have permissions.''
 
+git add =>
+	''Adds files changes in your working directory to your index. Example: git add .''
 
+git status =>
+	Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing). 
