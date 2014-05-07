@@ -18,3 +18,6 @@ git pull =>
 
 git push =>
 	Pushes all the modified local objects to the remote repository and advances its branches. Example: git push origin master.
+
+git diff =>
+	Generates patch files or statistics of differences between paths or files in your git repository, or your index or your working directory. Example: git diff
