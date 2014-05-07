@@ -4,6 +4,11 @@ git clone ssh.....or http =>
 git add =>
 	''Adds files changes in your working directory to your index. Example: git add .''
 
+git commit =>
+	Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit. 
+	Examples: git commit -m ‘committing added changes’ 
+		git commit -a -m ‘committing all changes == equals to git add and git commit’
+
 git status =>
 	Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing). 
 
