@@ -1,0 +1,13 @@
+git clone ssh.....or http => Makes a Git repository copy from a remote source. Also adds the original location as a remote so you can fetch from it again and push to it if you have permissions.
+git diff
+git status
+git stash
+git log
+git history
+git blame
+git cherry pick
+git reset HEAD
+git push
+git pull
+
+
