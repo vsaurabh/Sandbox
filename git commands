@@ -30,3 +30,9 @@ git diff =>
 
 git-cherry-pick =>
 	Apply the changes introduced by some existing commits.
+
+git branch =>
+	Lists existing branches, including remote branches if ‘-a’ is provided. Creates a new branch if a branch name is provided. Example: git branch -a * master remotes/origin/master
+
+git checkout =>
+	Checks out a different branch – switches branches by updating the index, working tree, and HEAD to reflect the chosen branch. Example: git checkout newbranch
