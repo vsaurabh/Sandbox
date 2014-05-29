@@ -1,3 +1,4 @@
+#######################################
 git clone ssh.....or http =>
 	'' Makes a Git repository copy from a remote source. Also adds the original location as a remote source you can fetch from it again and push to it if you have permissions.''
 
